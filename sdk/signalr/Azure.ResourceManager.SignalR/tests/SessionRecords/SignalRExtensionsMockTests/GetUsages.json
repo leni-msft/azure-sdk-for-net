@@ -1,0 +1,48 @@
+{
+  "Entries": [
+    {
+      "RequestUri": "https://localhost:8443/subscriptions/00000000-0000-0000-0000-000000000000/providers/Microsoft.SignalRService/locations/eastus/usages?api-version=2021-06-01-preview",
+      "RequestMethod": "GET",
+      "RequestHeaders": {
+        "Accept": "application/json",
+        "Authorization": "Sanitized",
+        "traceparent": "00-42a6ec2d6fb14542bfd492a0a01c6793-77fe95da1eb72a44-00",
+        "User-Agent": "azsdk-net-ResourceManager.SignalR/1.0.0-alpha.20220405.1 (.NET Framework 4.8.4420.0; Microsoft Windows 10.0.19044 )",
+        "x-ms-client-request-id": "9b26a7e89d7bc151b1a149f9dd1bbe42",
+        "x-ms-return-client-request-id": "true"
+      },
+      "RequestBody": null,
+      "StatusCode": 200,
+      "ResponseHeaders": {
+        "Connection": "keep-alive",
+        "Content-Length": "277",
+        "Content-Type": "application/json; charset=utf-8",
+        "Date": "Tue, 05 Apr 2022 02:45:55 GMT",
+        "ETag": "W/\u0022115-Jonnd4zUZSdonp4\u002BDq1yTtFT\u002Brk\u0022",
+        "Keep-Alive": "timeout=5",
+        "X-Powered-By": "Express"
+      },
+      "ResponseBody": {
+        "value": [
+          {
+            "id": "/subscriptions/00000000-0000-0000-0000-000000000000/providers/Microsoft.SignalRService/locations/eastus/usages/[object Object]",
+            "currentValue": 11,
+            "limit": 26,
+            "name": {
+              "value": "aaaaaaaaaaaaaaaa",
+              "localizedValue": "aaaaaaaaaaaaaaa"
+            },
+            "unit": "aaaa"
+          }
+        ],
+        "nextLink": null
+      }
+    }
+  ],
+  "Variables": {
+    "RandomSeed": "337565375",
+    "RESOURCE_MANAGER_URL": "https://localhost:8443",
+    "SERVICE_MANAGEMENT_URL": null,
+    "SUBSCRIPTION_ID": "00000000-0000-0000-0000-000000000000"
+  }
+}

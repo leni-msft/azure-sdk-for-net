@@ -1,0 +1,183 @@
+{
+  "Entries": [
+    {
+      "RequestUri": "https://localhost:8443/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/myResourceGroup/providers/Microsoft.SignalRService/signalR/mySignalRService?api-version=2021-06-01-preview",
+      "RequestMethod": "GET",
+      "RequestHeaders": {
+        "Accept": "application/json",
+        "Authorization": "Sanitized",
+        "traceparent": "00-68965afa42ac9f44974455d452337da5-52172a1dec254c4b-00",
+        "User-Agent": "azsdk-net-ResourceManager.SignalR/1.0.0-alpha.20220405.1 (.NET Framework 4.8.4420.0; Microsoft Windows 10.0.19044 )",
+        "x-ms-client-request-id": "281ae155b0c410ed0bba62eaa21c5ac3",
+        "x-ms-return-client-request-id": "true"
+      },
+      "RequestBody": null,
+      "StatusCode": 200,
+      "ResponseHeaders": {
+        "Connection": "keep-alive",
+        "Content-Length": "3324",
+        "Content-Type": "application/json; charset=utf-8",
+        "Date": "Tue, 05 Apr 2022 02:45:56 GMT",
+        "ETag": "W/\u0022cfc-4sDgvZaoXS02Ux3vzzHrTxf37zE\u0022",
+        "Keep-Alive": "timeout=5",
+        "X-Powered-By": "Express"
+      },
+      "ResponseBody": {
+        "id": "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/myResourceGroup/providers/Microsoft.SignalRService/signalR/mySignalRService",
+        "name": "mySignalRService",
+        "type": "Microsoft.SignalRService/signalR",
+        "location": "aaaaaa",
+        "tags": {
+          "key527": "aaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+        },
+        "sku": {
+          "name": "aaaaaaaaa",
+          "tier": "Free",
+          "size": "aaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "family": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "capacity": 27
+        },
+        "properties": {
+          "provisioningState": "Succeeded",
+          "externalIP": "aaaaaaaaa",
+          "hostName": "aaaaaaaaaaaaaaaa",
+          "publicPort": 15,
+          "serverPort": 17,
+          "version": "aaaaa",
+          "privateEndpointConnections": [
+            {
+              "id": "/subscriptions/a9cbceed-cd54-47f1-b7a2-bad149218603/resourceGroups/mockRg/providers/Microsoft.Resources/mockResource/mockName",
+              "name": "mockName",
+              "type": "Microsoft.Resources/mockResource",
+              "systemData": {
+                "createdBy": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+                "createdByType": "User",
+                "createdAt": "2022-04-05T02:45:56.188Z",
+                "lastModifiedBy": "aaaaaaaaaaaaaaaaaaaaaaaa",
+                "lastModifiedByType": "User",
+                "lastModifiedAt": "2022-04-05T02:45:56.188Z"
+              },
+              "properties": {
+                "provisioningState": "Succeeded",
+                "privateEndpoint": {
+                  "id": "aaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+                },
+                "privateLinkServiceConnectionState": {
+                  "status": "Pending",
+                  "description": "aa",
+                  "actionsRequired": "aaaaaaaaaaaaaaaa"
+                }
+              }
+            }
+          ],
+          "sharedPrivateLinkResources": [
+            {
+              "id": "/subscriptions/a9cbceed-cd54-47f1-b7a2-bad149218603/resourceGroups/mockRg/providers/Microsoft.Resources/mockResource/mockName",
+              "name": "mockName",
+              "type": "Microsoft.Resources/mockResource",
+              "systemData": {
+                "createdBy": "a",
+                "createdByType": "User",
+                "createdAt": "2022-04-05T02:45:56.189Z",
+                "lastModifiedBy": "aaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+                "lastModifiedByType": "User",
+                "lastModifiedAt": "2022-04-05T02:45:56.189Z"
+              },
+              "properties": {
+                "groupId": "aaaaaaaaaaaa",
+                "privateLinkResourceId": "aaaaaaaaaaaaaaaaaaaaaaa",
+                "provisioningState": "Succeeded",
+                "requestMessage": "aaaaaaa",
+                "status": "Pending"
+              }
+            }
+          ],
+          "tls": {
+            "clientCertEnabled": true
+          },
+          "features": [
+            {
+              "flag": "ServiceMode",
+              "value": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+              "properties": {
+                "key1838": "aaaaaaaaaaaaaaaaaaaaaaaaaaa"
+              }
+            }
+          ],
+          "cors": {
+            "allowedOrigins": [
+              "aaaaaaaaaaaaaaaaaaaaaa"
+            ]
+          },
+          "upstream": {
+            "templates": [
+              {
+                "hubPattern": "aaaaaaaaaaaaaaaaaaaa",
+                "eventPattern": "aaaaaaaaaaaaaa",
+                "categoryPattern": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+                "urlTemplate": "aaaa",
+                "auth": {
+                  "type": "None",
+                  "managedIdentity": {
+                    "resource": "aaaaaaaaaaaaa"
+                  }
+                }
+              }
+            ]
+          },
+          "networkACLs": {
+            "defaultAction": "Allow",
+            "publicNetwork": {
+              "allow": [
+                "ClientConnection"
+              ],
+              "deny": [
+                "ClientConnection"
+              ]
+            },
+            "privateEndpoints": [
+              {
+                "allow": [
+                  "ClientConnection"
+                ],
+                "deny": [
+                  "ClientConnection"
+                ],
+                "name": "aaaaaaaaaaaaaaaaaaaaaaaa"
+              }
+            ]
+          },
+          "publicNetworkAccess": "aaaaaaaaaaaaaaaaaaaaaaaa",
+          "disableLocalAuth": true,
+          "disableAadAuth": true
+        },
+        "kind": "SignalR",
+        "identity": {
+          "type": "None",
+          "userAssignedIdentities": {
+            "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/00000000-0000-0000-0000-000000000000/providers/Microsoft.ManagedIdentity/userAssignedIdentities/key9229": {
+              "principalId": "00000000-0000-0000-0000-000000000000",
+              "clientId": "00000000-0000-0000-0000-000000000000"
+            }
+          },
+          "principalId": "00000000-0000-0000-0000-000000000000",
+          "tenantId": "00000000-0000-0000-0000-000000000000"
+        },
+        "systemData": {
+          "createdBy": "a",
+          "createdByType": "User",
+          "createdAt": "2022-04-05T02:45:56.189Z",
+          "lastModifiedBy": "aaaaaa",
+          "lastModifiedByType": "User",
+          "lastModifiedAt": "2022-04-05T02:45:56.189Z"
+        }
+      }
+    }
+  ],
+  "Variables": {
+    "RandomSeed": "187815217",
+    "RESOURCE_MANAGER_URL": "https://localhost:8443",
+    "SERVICE_MANAGEMENT_URL": null,
+    "SUBSCRIPTION_ID": "00000000-0000-0000-0000-000000000000"
+  }
+}

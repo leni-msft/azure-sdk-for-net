@@ -1,0 +1,82 @@
+{
+  "Entries": [
+    {
+      "RequestUri": "https://localhost:8443/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/myResourceGroup/providers/Microsoft.SignalRService/signalR/mySignalRService/privateEndpointConnections/mysignalrservice.1fa229cd-bf3f-47f0-8c49-afb36723997e?api-version=2021-06-01-preview",
+      "RequestMethod": "DELETE",
+      "RequestHeaders": {
+        "Accept": "application/json",
+        "Authorization": "Sanitized",
+        "traceparent": "00-5b0111c22775114fbc05b18e79ab2b7a-3415ce8c036ed847-00",
+        "User-Agent": "azsdk-net-ResourceManager.SignalR/1.0.0-alpha.20220405.1 (.NET Framework 4.8.4420.0; Microsoft Windows 10.0.19044 )",
+        "x-ms-client-request-id": "97bf363483c87cc1f90ad5c5a1ecddc5",
+        "x-ms-return-client-request-id": "true"
+      },
+      "RequestBody": null,
+      "StatusCode": 202,
+      "ResponseHeaders": {
+        "Connection": "keep-alive",
+        "Content-Length": "0",
+        "Content-Type": "application/json; charset=utf-8",
+        "Date": "Tue, 05 Apr 2022 02:45:54 GMT",
+        "Keep-Alive": "timeout=5",
+        "Location": "https://localhost:8443/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/myResourceGroup/providers/Microsoft.SignalRService/signalR/mySignalRService/privateEndpointConnections/mysignalrservice.1fa229cd-bf3f-47f0-8c49-afb36723997e?api-version=2021-06-01-preview\u0026lro-callback=true",
+        "Retry-After": "0",
+        "X-Powered-By": "Express"
+      },
+      "ResponseBody": null
+    },
+    {
+      "RequestUri": "https://localhost:8443/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/myResourceGroup/providers/Microsoft.SignalRService/signalR/mySignalRService/privateEndpointConnections/mysignalrservice.1fa229cd-bf3f-47f0-8c49-afb36723997e?api-version=2021-06-01-preview\u0026lro-callback=true",
+      "RequestMethod": "GET",
+      "RequestHeaders": {
+        "Authorization": "Sanitized",
+        "traceparent": "00-5b0111c22775114fbc05b18e79ab2b7a-83cd258e1e8f964c-00",
+        "User-Agent": "azsdk-net-ResourceManager/1.0.0-alpha.20220401.1 (.NET Framework 4.8.4420.0; Microsoft Windows 10.0.19044 )",
+        "x-ms-client-request-id": "d9df6db50166f9b7a27e378b30caed1f",
+        "x-ms-return-client-request-id": "true"
+      },
+      "RequestBody": null,
+      "StatusCode": 200,
+      "ResponseHeaders": {
+        "Connection": "keep-alive",
+        "Content-Length": "803",
+        "Content-Type": "application/json; charset=utf-8",
+        "Date": "Tue, 05 Apr 2022 02:45:54 GMT",
+        "ETag": "W/\u0022323-xctMWyUO\u002B5Xw827D0FRE8QIHrvU\u0022",
+        "Keep-Alive": "timeout=5",
+        "X-Powered-By": "Express"
+      },
+      "ResponseBody": {
+        "id": "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/myResourceGroup/providers/Microsoft.SignalRService/signalR/mySignalRService/privateEndpointConnections/mysignalrservice.1fa229cd-bf3f-47f0-8c49-afb36723997e",
+        "name": "mysignalrservice.1fa229cd-bf3f-47f0-8c49-afb36723997e",
+        "type": "Microsoft.SignalRService/signalR/privateEndpointConnections",
+        "systemData": {
+          "createdBy": "aaaaaaaaa",
+          "createdByType": "User",
+          "createdAt": "2022-04-05T02:45:54.964Z",
+          "lastModifiedBy": "aaaaaaaaaaaaaaaaaaaaaaaaa",
+          "lastModifiedByType": "User",
+          "lastModifiedAt": "2022-04-05T02:45:54.964Z"
+        },
+        "properties": {
+          "provisioningState": "Succeeded",
+          "privateEndpoint": {
+            "id": "aaaaaaaaaaaa"
+          },
+          "privateLinkServiceConnectionState": {
+            "status": "Pending",
+            "description": "aaa",
+            "actionsRequired": "aaaaaaaaaaaaaaa"
+          }
+        },
+        "status": "Succeeded"
+      }
+    }
+  ],
+  "Variables": {
+    "RandomSeed": "1915974714",
+    "RESOURCE_MANAGER_URL": "https://localhost:8443",
+    "SERVICE_MANAGEMENT_URL": null,
+    "SUBSCRIPTION_ID": "00000000-0000-0000-0000-000000000000"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "Entries": [
+    {
+      "RequestUri": "https://localhost:8443/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/myResourceGroup/providers/Microsoft.SignalRService/signalR/mySignalRService/sharedPrivateLinkResources/upstream?api-version=2021-06-01-preview",
+      "RequestMethod": "GET",
+      "RequestHeaders": {
+        "Accept": "application/json",
+        "Authorization": "Sanitized",
+        "traceparent": "00-a2fb3c97ebcfe3439bba8275b1aa61d4-cd0564469d41c34b-00",
+        "User-Agent": "azsdk-net-ResourceManager.SignalR/1.0.0-alpha.20220405.1 (.NET Framework 4.8.4420.0; Microsoft Windows 10.0.19044 )",
+        "x-ms-client-request-id": "3375d206b9f5efb0b4c5562899f92ba6",
+        "x-ms-return-client-request-id": "true"
+      },
+      "RequestBody": null,
+      "StatusCode": 200,
+      "ResponseHeaders": {
+        "Connection": "keep-alive",
+        "Content-Length": "680",
+        "Content-Type": "application/json; charset=utf-8",
+        "Date": "Tue, 05 Apr 2022 02:45:55 GMT",
+        "ETag": "W/\u00222a8-p8Jo0fCNQHkv0NMHaZB8hEqjTlc\u0022",
+        "Keep-Alive": "timeout=5",
+        "X-Powered-By": "Express"
+      },
+      "ResponseBody": {
+        "id": "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/myResourceGroup/providers/Microsoft.SignalRService/signalR/mySignalRService/sharedPrivateLinkResources/upstream",
+        "name": "upstream",
+        "type": "Microsoft.SignalRService/signalR/sharedPrivateLinkResources",
+        "systemData": {
+          "createdBy": "aaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "createdByType": "User",
+          "createdAt": "2022-04-05T02:45:55.378Z",
+          "lastModifiedBy": "aaaaaaaaaaaaaaaaaaaaa",
+          "lastModifiedByType": "User",
+          "lastModifiedAt": "2022-04-05T02:45:55.378Z"
+        },
+        "properties": {
+          "groupId": "aaaaaaaaa",
+          "privateLinkResourceId": "aaaaaaaaaaaaaaaa",
+          "provisioningState": "Succeeded",
+          "requestMessage": "aaaaaaaaaaaaaaaaaaaaaaaa",
+          "status": "Pending"
+        }
+      }
+    }
+  ],
+  "Variables": {
+    "RandomSeed": "763812345",
+    "RESOURCE_MANAGER_URL": "https://localhost:8443",
+    "SERVICE_MANAGEMENT_URL": null,
+    "SUBSCRIPTION_ID": "00000000-0000-0000-0000-000000000000"
+  }
+}

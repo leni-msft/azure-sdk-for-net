@@ -1,0 +1,78 @@
+{
+  "Entries": [
+    {
+      "RequestUri": "https://localhost:8443/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/myResourceGroup/providers/Microsoft.SignalRService/signalR/mySignalRService/sharedPrivateLinkResources/upstream?api-version=2021-06-01-preview",
+      "RequestMethod": "DELETE",
+      "RequestHeaders": {
+        "Accept": "application/json",
+        "Authorization": "Sanitized",
+        "traceparent": "00-c92085890abd514ba901eae819e9ef20-aa8aa087c9bb0743-00",
+        "User-Agent": "azsdk-net-ResourceManager.SignalR/1.0.0-alpha.20220405.1 (.NET Framework 4.8.4420.0; Microsoft Windows 10.0.19044 )",
+        "x-ms-client-request-id": "aced825fc4dc656f7a826b1e7f09525e",
+        "x-ms-return-client-request-id": "true"
+      },
+      "RequestBody": null,
+      "StatusCode": 202,
+      "ResponseHeaders": {
+        "Connection": "keep-alive",
+        "Content-Length": "0",
+        "Content-Type": "application/json; charset=utf-8",
+        "Date": "Tue, 05 Apr 2022 02:45:55 GMT",
+        "Keep-Alive": "timeout=5",
+        "Location": "https://localhost:8443/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/myResourceGroup/providers/Microsoft.SignalRService/signalR/mySignalRService/sharedPrivateLinkResources/upstream?api-version=2021-06-01-preview\u0026lro-callback=true",
+        "Retry-After": "0",
+        "X-Powered-By": "Express"
+      },
+      "ResponseBody": null
+    },
+    {
+      "RequestUri": "https://localhost:8443/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/myResourceGroup/providers/Microsoft.SignalRService/signalR/mySignalRService/sharedPrivateLinkResources/upstream?api-version=2021-06-01-preview\u0026lro-callback=true",
+      "RequestMethod": "GET",
+      "RequestHeaders": {
+        "Authorization": "Sanitized",
+        "traceparent": "00-c92085890abd514ba901eae819e9ef20-55502ff9ee44ea42-00",
+        "User-Agent": "azsdk-net-ResourceManager/1.0.0-alpha.20220401.1 (.NET Framework 4.8.4420.0; Microsoft Windows 10.0.19044 )",
+        "x-ms-client-request-id": "b500a0e98025885df572edf8d562b401",
+        "x-ms-return-client-request-id": "true"
+      },
+      "RequestBody": null,
+      "StatusCode": 200,
+      "ResponseHeaders": {
+        "Connection": "keep-alive",
+        "Content-Length": "696",
+        "Content-Type": "application/json; charset=utf-8",
+        "Date": "Tue, 05 Apr 2022 02:45:55 GMT",
+        "ETag": "W/\u00222b8-4EcYltDGDtP81kgy0LzHA9ezLJ4\u0022",
+        "Keep-Alive": "timeout=5",
+        "X-Powered-By": "Express"
+      },
+      "ResponseBody": {
+        "id": "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/myResourceGroup/providers/Microsoft.SignalRService/signalR/mySignalRService/sharedPrivateLinkResources/upstream",
+        "name": "upstream",
+        "type": "Microsoft.SignalRService/signalR/sharedPrivateLinkResources",
+        "systemData": {
+          "createdBy": "aaaaaaaaaaaaaaaa",
+          "createdByType": "User",
+          "createdAt": "2022-04-05T02:45:55.315Z",
+          "lastModifiedBy": "aaaaaa",
+          "lastModifiedByType": "User",
+          "lastModifiedAt": "2022-04-05T02:45:55.315Z"
+        },
+        "properties": {
+          "groupId": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "privateLinkResourceId": "aaaaaaaaaaaaaaaaaaaaaaaa",
+          "provisioningState": "Succeeded",
+          "requestMessage": "aaaaaaaaaaaaaaaa",
+          "status": "Pending"
+        },
+        "status": "Succeeded"
+      }
+    }
+  ],
+  "Variables": {
+    "RandomSeed": "2072983918",
+    "RESOURCE_MANAGER_URL": "https://localhost:8443",
+    "SERVICE_MANAGEMENT_URL": null,
+    "SUBSCRIPTION_ID": "00000000-0000-0000-0000-000000000000"
+  }
+}

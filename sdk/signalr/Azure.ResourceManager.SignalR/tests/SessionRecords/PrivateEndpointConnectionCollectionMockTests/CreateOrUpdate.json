@@ -1,0 +1,9 @@
+{
+  "Entries": [],
+  "Variables": {
+    "RandomSeed": "857440487",
+    "RESOURCE_MANAGER_URL": "https://localhost:8443",
+    "SERVICE_MANAGEMENT_URL": null,
+    "SUBSCRIPTION_ID": "00000000-0000-0000-0000-000000000000"
+  }
+}

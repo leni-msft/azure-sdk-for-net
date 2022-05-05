@@ -1,0 +1,148 @@
+{
+  "Entries": [
+    {
+      "RequestUri": "https://localhost:8443/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/myResourceGroup/providers/Microsoft.SignalRService/signalR/mySignalRService/sharedPrivateLinkResources/upstream?api-version=2021-06-01-preview",
+      "RequestMethod": "PUT",
+      "RequestHeaders": {
+        "Accept": "application/json",
+        "Authorization": "Sanitized",
+        "Content-Length": "216",
+        "Content-Type": "application/json",
+        "traceparent": "00-cb5a446b545c0e418d2bacd602ea6c66-2a41972dd3b0264e-00",
+        "User-Agent": "azsdk-net-ResourceManager.SignalR/1.0.0-alpha.20220405.1 (.NET Framework 4.8.4420.0; Microsoft Windows 10.0.19044 )",
+        "x-ms-client-request-id": "de3f536a8b6ca490a68a62bdf66c2b86",
+        "x-ms-return-client-request-id": "true"
+      },
+      "RequestBody": {
+        "properties": {
+          "groupId": "sites",
+          "privateLinkResourceId": "/subscriptions/00000000-0000-0000-0000-000000000000/resourcegroups/myResourceGroup/providers/Microsoft.Web/sites/myWebApp",
+          "requestMessage": "Please approve"
+        }
+      },
+      "StatusCode": 201,
+      "ResponseHeaders": {
+        "Azure-AsyncOperation": "https://localhost:8443/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/myResourceGroup/providers/Microsoft.SignalRService/signalR/mySignalRService/sharedPrivateLinkResources/upstream?api-version=2021-06-01-preview\u0026lro-callback=true",
+        "Connection": "keep-alive",
+        "Content-Length": "640",
+        "Content-Type": "application/json; charset=utf-8",
+        "Date": "Tue, 05 Apr 2022 02:45:55 GMT",
+        "ETag": "W/\u0022280-QyNq0BlYrhDK07WTELYOu2xUjDs\u0022",
+        "Keep-Alive": "timeout=5",
+        "Retry-After": "0",
+        "X-Powered-By": "Express"
+      },
+      "ResponseBody": {
+        "id": "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/myResourceGroup/providers/Microsoft.SignalRService/signalR/mySignalRService/sharedPrivateLinkResources/upstream",
+        "name": "upstream",
+        "type": "Microsoft.SignalRService/signalR/sharedPrivateLinkResources",
+        "systemData": {
+          "createdBy": "aaaaaaaa",
+          "createdByType": "User",
+          "createdAt": "2022-04-05T02:45:55.222Z",
+          "lastModifiedBy": "aaaa",
+          "lastModifiedByType": "User",
+          "lastModifiedAt": "2022-04-05T02:45:55.222Z"
+        },
+        "properties": {
+          "groupId": "aaaaaaaaaaaaaaaaaa",
+          "privateLinkResourceId": "aaaaaaaaaaaaaaa",
+          "provisioningState": "Succeeded",
+          "requestMessage": "aaaaaaaaaaa",
+          "status": "Pending"
+        }
+      }
+    },
+    {
+      "RequestUri": "https://localhost:8443/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/myResourceGroup/providers/Microsoft.SignalRService/signalR/mySignalRService/sharedPrivateLinkResources/upstream?api-version=2021-06-01-preview\u0026lro-callback=true",
+      "RequestMethod": "GET",
+      "RequestHeaders": {
+        "Authorization": "Sanitized",
+        "traceparent": "00-cb5a446b545c0e418d2bacd602ea6c66-0dabd0ec26118c43-00",
+        "User-Agent": "azsdk-net-ResourceManager/1.0.0-alpha.20220401.1 (.NET Framework 4.8.4420.0; Microsoft Windows 10.0.19044 )",
+        "x-ms-client-request-id": "62aede706a15e065428075743c8fef1f",
+        "x-ms-return-client-request-id": "true"
+      },
+      "RequestBody": null,
+      "StatusCode": 200,
+      "ResponseHeaders": {
+        "Connection": "keep-alive",
+        "Content-Length": "699",
+        "Content-Type": "application/json; charset=utf-8",
+        "Date": "Tue, 05 Apr 2022 02:45:55 GMT",
+        "ETag": "W/\u00222bb-xYHnxJ1sc\u002BvIVv7pZckOWDNELgE\u0022",
+        "Keep-Alive": "timeout=5",
+        "X-Powered-By": "Express"
+      },
+      "ResponseBody": {
+        "id": "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/myResourceGroup/providers/Microsoft.SignalRService/signalR/mySignalRService/sharedPrivateLinkResources/upstream",
+        "name": "upstream",
+        "type": "Microsoft.SignalRService/signalR/sharedPrivateLinkResources",
+        "systemData": {
+          "createdBy": "aaaaaaaaaaaaaaaaaaaaaa",
+          "createdByType": "User",
+          "createdAt": "2022-04-05T02:45:55.236Z",
+          "lastModifiedBy": "aaaaaaaaaaaaaaaaaaa",
+          "lastModifiedByType": "User",
+          "lastModifiedAt": "2022-04-05T02:45:55.236Z"
+        },
+        "properties": {
+          "groupId": "aaaaaaaaaaaaaa",
+          "privateLinkResourceId": "aaaaaaaaaaaaaaaaaaaaaaaaa",
+          "provisioningState": "Succeeded",
+          "requestMessage": "aaaaaaaaaaaaaa",
+          "status": "Pending"
+        },
+        "status": "Succeeded"
+      }
+    },
+    {
+      "RequestUri": "https://localhost:8443/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/myResourceGroup/providers/Microsoft.SignalRService/signalR/mySignalRService/sharedPrivateLinkResources/upstream?api-version=2021-06-01-preview",
+      "RequestMethod": "GET",
+      "RequestHeaders": {
+        "Authorization": "Sanitized",
+        "traceparent": "00-cb5a446b545c0e418d2bacd602ea6c66-cf99db4066f36245-00",
+        "User-Agent": "azsdk-net-ResourceManager/1.0.0-alpha.20220401.1 (.NET Framework 4.8.4420.0; Microsoft Windows 10.0.19044 )",
+        "x-ms-client-request-id": "ff2b9e62768f13b87ef30dc9b7100edc",
+        "x-ms-return-client-request-id": "true"
+      },
+      "RequestBody": null,
+      "StatusCode": 200,
+      "ResponseHeaders": {
+        "Connection": "keep-alive",
+        "Content-Length": "665",
+        "Content-Type": "application/json; charset=utf-8",
+        "Date": "Tue, 05 Apr 2022 02:45:55 GMT",
+        "ETag": "W/\u0022299-hzPda9We50OW6zQ/qYCdmEZIB2E\u0022",
+        "Keep-Alive": "timeout=5",
+        "X-Powered-By": "Express"
+      },
+      "ResponseBody": {
+        "id": "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/myResourceGroup/providers/Microsoft.SignalRService/signalR/mySignalRService/sharedPrivateLinkResources/upstream",
+        "name": "upstream",
+        "type": "Microsoft.SignalRService/signalR/sharedPrivateLinkResources",
+        "systemData": {
+          "createdBy": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "createdByType": "User",
+          "createdAt": "2022-04-05T02:45:55.243Z",
+          "lastModifiedBy": "aaaaaaaaaaaaaaaaa",
+          "lastModifiedByType": "User",
+          "lastModifiedAt": "2022-04-05T02:45:55.243Z"
+        },
+        "properties": {
+          "groupId": "aaa",
+          "privateLinkResourceId": "aaaaaa",
+          "provisioningState": "Succeeded",
+          "requestMessage": "aaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "status": "Pending"
+        }
+      }
+    }
+  ],
+  "Variables": {
+    "RandomSeed": "1841099635",
+    "RESOURCE_MANAGER_URL": "https://localhost:8443",
+    "SERVICE_MANAGEMENT_URL": null,
+    "SUBSCRIPTION_ID": "00000000-0000-0000-0000-000000000000"
+  }
+}

@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <!--<TestHelperProjects>Rbac1.6;</TestHelperProjects>-->
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="0f65a0bd-e85d-41c6-aec7-b0bca84e4689.cs" />
+    <Compile Remove="193760c8-fe49-49a0-b425-178088a76fbb.cs" />
+    <Compile Remove="1efc9156-95ae-4f6d-a81b-0247afc97ac7.cs" />
+    <Compile Remove="421e40b6-445b-4a49-b74f-3f9d9ae8f0e2.cs" />
+    <Compile Remove="485bfa0d-67b3-4edd-9977-22c3b5b74f59.cs" />
+    <Compile Remove="4db5242b-b07d-42ef-8a29-22af750cf7e1.cs" />
+    <Compile Remove="63d2ee86-e577-4c8e-9038-aa2374757989.cs" />
+    <Compile Remove="69aadc94-159e-48e9-8b19-92c9b29ed11c.cs" />
+    <Compile Remove="757464bb-9dec-4a4c-be2c-5a31a82b8aea.cs" />
+    <Compile Remove="79eef6ec-57f6-4dc3-9e3a-958ffb67d08e.cs" />
+    <Compile Remove="7e3c4bc0-7996-4120-ac3c-5abb3c38e2db.cs" />
+    <Compile Remove="89d1b052-21a7-4cad-8376-e9708358d86b.cs" />
+    <Compile Remove="90ce4e34-1646-49dd-8695-e331be152bc4.cs" />
+    <Compile Remove="987d027b-176f-4399-89a9-eba0e3ce4a9a.cs" />
+    <Compile Remove="a2bc5500-6e8f-4101-a98e-f628e3cec562.cs" />
+    <Compile Remove="a94b3f55-da3f-466f-a1f3-d86090ebdea5.cs" />
+    <Compile Remove="aaecc59b-0293-4d02-85a3-c03cd4815467.cs" />
+    <Compile Remove="ad7be910-9697-4200-ba83-77b78ddaa0ae.cs" />
+    <Compile Remove="c47923f8-0eed-46f4-813d-b32cc7995307.cs" />
+    <Compile Remove="c89b77d5-5954-40ba-a5cb-6c4255e2a590.cs" />
+    <Compile Remove="d1568663-d097-4ecf-a44c-43ca3cb19a89.cs" />
+    <Compile Remove="d2725926-ff1e-4e25-89d6-15fa9bc6c2b8.cs" />
+    <Compile Remove="d3b89608-7a23-4fb8-9e37-25a289c1a5dc.cs" />
+    <Compile Remove="da4bfadf-d19c-485d-9e08-0b154b88f019.cs" />
+    <Compile Remove="fbfbb3eb-81e6-4a92-9138-e3d378e085c2.cs" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\src\Azure.ResourceManager.SignalR.csproj" />
+    <ProjectReference Include="..\..\..\resources\Azure.ResourceManager.Resources\src\Azure.ResourceManager.Resources.csproj" />
+    <PackageReference Include="Azure.Identity" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <Folder Include="Generated\" />
+  </ItemGroup>
+</Project>

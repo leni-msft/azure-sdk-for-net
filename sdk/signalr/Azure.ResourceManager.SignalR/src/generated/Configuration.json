@@ -1,0 +1,15 @@
+{
+  "OutputFolder": ".",
+  "Namespace": "Azure.ResourceManager.SignalR",
+  "LibraryName": null,
+  "SharedSourceFolders": [
+    "..\\Generator.Shared",
+    "..\\Azure.Core.Shared"
+  ],
+  "azure-arm": true,
+  "public-clients": true,
+  "head-as-boolean": true,
+  "ListException": [
+    "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.SignalRService/signalR/{resourceName}/privateEndpointConnections/{privateEndpointConnectionName}"
+  ]
+}

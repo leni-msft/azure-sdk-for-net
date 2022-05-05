@@ -1,0 +1,62 @@
+{
+  "Entries": [
+    {
+      "RequestUri": "https://localhost:8443/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/myResourceGroup/providers/Microsoft.SignalRService/signalR/mySignalRService/privateLinkResources?api-version=2021-06-01-preview",
+      "RequestMethod": "GET",
+      "RequestHeaders": {
+        "Accept": "application/json",
+        "Authorization": "Sanitized",
+        "traceparent": "00-d8e7c9ed76206244b0f48b98cb1bda09-8302e47672b4d84e-00",
+        "User-Agent": "azsdk-net-ResourceManager.SignalR/1.0.0-alpha.20220405.1 (.NET Framework 4.8.4420.0; Microsoft Windows 10.0.19044 )",
+        "x-ms-client-request-id": "7e5c5ff0dc4d5b0e18e8565536a95ae3",
+        "x-ms-return-client-request-id": "true"
+      },
+      "RequestBody": null,
+      "StatusCode": 200,
+      "ResponseHeaders": {
+        "Connection": "keep-alive",
+        "Content-Length": "569",
+        "Content-Type": "application/json; charset=utf-8",
+        "Date": "Tue, 05 Apr 2022 02:45:56 GMT",
+        "ETag": "W/\u0022239-Ik/r4SRiCAHyajSaJZ6JcR2l3rY\u0022",
+        "Keep-Alive": "timeout=5",
+        "X-Powered-By": "Express"
+      },
+      "ResponseBody": {
+        "value": [
+          {
+            "id": "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/myResourceGroup/providers/Microsoft.SignalRService/signalR/mySignalRService/privateLinkResources/mockName",
+            "name": "mockName",
+            "type": "Microsoft.SignalRService/signalR/privateLinkResources",
+            "properties": {
+              "groupId": "aaaaaaaaaaaaaa",
+              "requiredMembers": [
+                "aa"
+              ],
+              "requiredZoneNames": [
+                "aaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+              ],
+              "shareablePrivateLinkResourceTypes": [
+                {
+                  "name": "aaaaaaaaaaaaaaaaaaaaaa",
+                  "properties": {
+                    "description": "a",
+                    "groupId": "aaaaaaaaaaaaaaaaaaaaaa",
+                    "type": "aaaaaaaa"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "nextLink": null
+      }
+    }
+  ],
+  "Variables": {
+    "RandomSeed": "1258011574",
+    "RESOURCE_MANAGER_URL": "https://localhost:8443",
+    "SERVICE_MANAGEMENT_URL": null,
+    "SUBSCRIPTION_ID": "00000000-0000-0000-0000-000000000000"
+  }
+}
